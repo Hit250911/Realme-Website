@@ -1,0 +1,168 @@
+*{@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    padding: 0px;}
+footer{
+    height: 12vh;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header{
+    background-color: #019187;
+   
+
+}
+nav {
+    display: flex;
+}
+.logo{
+    display: flex;
+   
+    
+}
+.logo img{
+    height: 70px;
+    padding: 2px 110px 2px 2px;
+    width: 220px;
+    
+}
+.home{
+    padding: 18px 80px;
+    width: 30px;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+}
+.home a:hover{
+font-weight: bolder;
+}
+.product{
+    padding: 18px 80px;
+    width: 30px;
+}
+.product a{
+    text-decoration: none;
+    color: white;
+   
+}
+.product a:hover{
+    font-weight: bolder;
+    }
+.about{
+    padding: 18px 80px;
+    width: 30px;
+}
+.about a{
+    text-decoration: none;
+    color: white;
+   
+}
+.about a:hover{
+    font-weight: bolder;
+    }
+    .contact{
+        padding: 18px 80px;
+        width: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+   
+}
+.contact a:hover{
+    font-weight: bolder;
+    padding-left:-50px;
+    }
+.main{
+    min-height:calc(100vh - 74px - 12vh);
+}
+.container1{
+    display: grid;
+    grid-template-rows: 250px 250px 250px 250px 250px 250px 250px ;
+    grid-row-gap: 60px;
+    margin: 20px 70px;
+}
+.item{
+    display: grid;
+    grid-template-columns: 430px 430px 430px;
+    grid-column-gap: 25px;
+}
+#im2{
+    height: 200px;
+    width: 200px;
+    padding: 20px 80px;
+}
+
+.container3{
+    padding: 10px;
+}
+.container4{
+    padding: 23px 5px 13px 85px;
+}
+.container6{
+    padding: 10px;
+}
+.container7{
+    padding: 23px 5px 13px 85px;
+}
+.container9{
+    padding: 10px;
+}
+.container10{
+    padding: 23px 5px 13px 85px;
+}
+.container12{
+    padding: 10px;
+}
+.container13{
+    padding: 23px 5px 13px 85px;
+}
+.container15{
+    padding: 10px;
+}
+.container16{
+    padding: 23px 5px 13px 85px;
+}
+.container18{
+    padding: 10px;
+}
+.container19{
+    padding: 23px 5px 13px 85px;
+}
+.container21{
+    padding: 10px;
+}
+.container22{
+    padding: 23px 5px 13px 85px;
+}
+li{
+    list-style-type: none;
+    line-height: 26pt;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-weight: bolder;
+}
+.btn{
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid black;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 90px;
+}
+.btn:hover{
+    font-weight: bolder;
+    color: black;
+    background-color: yellow;
+}

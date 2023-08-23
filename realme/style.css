@@ -1,0 +1,147 @@
+*{@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    padding: 0px;}
+footer{
+    height: 12vh;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header{
+    background-color: #120191;
+   
+
+}
+nav {
+    display: flex;
+}
+.logo{
+    display: flex;
+   
+    
+}
+.logo img{
+    height: 70px;
+    padding: 1px 110px 2px 1px;
+    width: 220px;
+    
+}
+.home{
+    padding: 18px 80px;
+    width: 30px;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+}
+.home a:hover{
+font-weight: bolder;
+}
+.product{
+    padding: 18px 80px;
+    width: 30px;
+}
+.product a{
+    text-decoration: none;
+    color: white;
+   
+}
+.product a:hover{
+    font-weight: bolder;
+    }
+.about{
+    padding: 18px 80px;
+    width: 30px;
+}
+.about a{
+    text-decoration: none;
+    color: white;
+   
+}
+.about a:hover{
+    font-weight: bolder;
+    }
+    .contact{
+        padding: 18px 80px;
+        width: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+   
+}
+.contact a:hover{
+    font-weight: bolder;
+    padding-left:-50px;
+    }
+.main{
+    min-height:calc(100vh - 74px - 12vh);
+}
+
+#i1{
+	width:99vw;
+}
+.container1 img {
+    height: 500px;
+    width: 400px;
+        padding: 5px 0px;
+}
+ #a1{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+#a1:hover{
+    font-weight: bolder;
+}
+.container2{
+    margin: 40px 30px 40px 30px ;
+    display: grid;
+    grid-template-columns:300px 300px 300px ;
+    grid-template-rows: 260px 260px;
+    justify-content: space-between;
+    grid-row-gap: 50px ;
+}
+.item{
+    border: 4px solid black;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+#im1{
+    padding: 10px 67px 4px;
+}
+#im2{
+    height: 205px;
+    width: 155px;
+    padding: 10px 68px;
+}
+#im3{
+    height: 205px;
+    width: 155px;
+    padding: 10px 68px;
+}
+#im4{
+    height: 205px;
+    width: 155px;
+    padding: 10px 68px;
+}
+#im5{
+    height: 205px;
+    width: 155px;
+    padding: 10px 68px;
+}
+#im6{
+    height: 205px;
+    width: 155px;
+    padding: 10px 68px;
+}
+#a2{
+    text-decoration: none;
+    color: black;
+}
+#a2:hover{
+    font-weight: bolder;
+}
